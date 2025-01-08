@@ -4995,11 +4995,11 @@ textarea {
   }
 }
 .services__details-area {
-  padding: 120px 0;
+  padding: 40px 0;
 }
 @media (max-width: 767.98px) {
   .services__details-area {
-    padding: 100px 0;
+    padding: 40px 0;
   }
 }
 .services__details-wrap .row .col-70 {
@@ -13026,3 +13026,20 @@ blockquote p {
     right: -15px;
   }
 }/*# sourceMappingURL=main.css.map */
+@media only screen and (max-width: 480px){
+  .hide-on-mobile{
+      display: none;
+  }
+}
+.justifytxt{
+  text-align: justify;
+}
+.about1 .list-wrap{
+  flex-direction: column;
+}
+.about1 .list-wrap li{
+  width: 100%;
+}
+.about1 p{
+  width: 100%;
+}
