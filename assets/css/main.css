@@ -2435,10 +2435,10 @@ textarea {
 .banner-bg {
   background-size: cover;
   background-position: center;
-  min-height: 870px;
+  min-height: 715px;
   display: flex;
   align-items: center;
-  padding: 200px 0 100px;
+  padding: 155px 0 0px;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -2550,7 +2550,7 @@ textarea {
   margin-bottom: 15px;
 }
 .banner-content .title {
-  font-size: 60px;
+  font-size: 50px;
   margin-bottom: 20px;
   line-height: 1.1;
   text-transform: capitalize;
@@ -2573,7 +2573,6 @@ textarea {
 .banner-content p {
   margin-bottom: 30px;
   color: #383952;
-  text-transform: capitalize;
   width: 90%;
 }
 @media (max-width: 1199.98px) {
